@@ -7,60 +7,105 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
     <link rel="stylesheet" type="text/css" href="./css/slick-carousel@1.8.1.slick.min.css" />
-    <link rel="shortcut icon" href="./img/logo1.png">
+    <link rel="shortcut icon" href="./img/logo.png">
     <script src='./js/main.js'></script>
 </head>
 
 <body>
-    <header class="cabecalho">
-        <div class="logo">
-            <img class="logo" src="./img/logo.png" />
-        </div>
-        <input type="checkbox" id="bt_menu" />
-        <label class="icon-menu" for="bt_menu">&#9776;</label>
-        <div class="menu-div">
-            <nav class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Conteudo</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
+    <header id="home" class="cabecalho">
+        <div class="topo">
+            <div class="logo">
+                <img class="logo" src="./img/logo.png" />
+            </div>
+            <input type="checkbox" id="bt_menu" />
+            <label class="icon-menu" for="bt_menu">&#9776;</label>
+            <div class="menu-div">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#servicos">SERVIÇOS</a></li>
+                        <li><a href="#sobre">SOBRE</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
-    <div class="base carrossel-slide">
+
+    <div class="carrossel-slide">
         <div class="slider-principal">
             <img src="./img/slider1.png" />
             <img src="./img/slider2.png" />
-            <img src="./img/slider3.png" />
             <img src="./img/slider4.png" />
         </div>
     </div>
 
-    <div class="base texto-destaque">
+    <div class="base2 texto-destaque">
         <h1>ELETRÔNICA INDUSTRIAL</h1>
+        <div class="base2">
+            <div class="texto-do-destaque">
+                <h3>Especializada em Elevadores</h3>
+                <p>Somos uma empresa conceituada que atua no ramo de elevadores. Estamos localizados na cidade de São Paulo. Conheça a nossa empresa e entre em contato.</p>
+                <p>Alguns dos nossos serviços:</p>
+                <ul>
+                    <li>- Reparo de placas eletrônicas.</li>
+                    <li>- Vistoria em elevadores. </li>
+                    <li>- Modernização de elevadores</li>
+                </ul>
 
-        <p>Algum texto aqui do que for interesse dado o que for passado, tendo como base um fonte de 25px e ocupando 80% da tela.
-            <ul>
-                <li> usando listagem personalizada</li>
-                <li> texto</li>
-                <li> não sei se tanto, porém estamos ai</li>
-                <li> texto </li>
-            </ul>
-        </p>
-
-        <img src="./img/imagemRepresentativa-Textodestaque.png" />
-
+            </div>
+            <img src="./img/imagemRepresentativa-Textodestaque.png" />
+        </div>
     </div>
-    <div class="base sobre ">
-
+    <div id="sobre" class="background1">
+        <div class="base2 sobre">
+            <h1>SOBRE NÓS</h1>
+            <div class="base2">
+                <img src="./img/ImagemRepresentativaSobre.png" />
+                <div class="texto-do-sobre">
+                    <p>A SPEC possui profissionais experientes, atuando no ramo à cerca de 10 anos, prestando serviços na instalação e manutenção de elevadores de todas as marcas. Zelamos pelo bom atendimento com qualidade, preço justo, segurança, agilidade
+                        e sempre atendendo as requisições do cliente com cordialidade e atenção. Possuímos um laboratório bem estruturado, com equipamentos novos e profissionais prontos para atender qualquer necessidade do cliente. Nós também contamos
+                        com um almoxarifado e oficina com peças para pronta reposição.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="base servicos ">
-
+    <div id="servicos" class="base servicos ">
+        <h1>NOSSOS SERVIÇOS</h1>
+        <div class="base2">
+            <div class="texto-do-servico">
+                <img class="imagem-do-servico" src="./img/service1.png" />
+                <span>
+                    <h3>Reparo de Drives</h3>
+                    <p>Temos perícia no recondicionamento de inversores de frequência de todos os modelos e potências, abrangendo qualquer necessidade do cliente.</p>
+                </span>
+            </div>
+            <div class="texto-do-servico">
+                <img class="imagem-do-servico" src="./img/service2.png" />
+                <span> 
+                    <h3>Reparo de Placas</h3>
+                    <p>Possuímos equipamento de última geração e mão de obra especializada para analisar defeitos e reparar placas eletrônicas danificadas.</p>
+                </span>
+            </div>
+        </div>
     </div>
-    <footer class="base ">
 
+    <footer id="contato">
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3831939057713!2d-46.69082458502314!3d-23.518716284704087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8129875220f%3A0x128618b37360ce3f!2sR.%20Comendador%20Sousa%2C%2050%20-%20%C3%81gua%20Branca%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005037-090!5e0!3m2!1spt-BR!2sbr!4v1591578393461!5m2!1spt-BR!2sbr"></iframe>
+        <div class="contato">
+            <h2>Contate-nos</h2>
+            <div class="divisao">
+                <h3>TELEFONES</h3>
+                <p>(11) 2597-5672 </p>
+                <p>(11) 94707-3514</p>
+                <p>(11) 94707-3526</p>
+            </div>
+            <div class="divisao">
+                <h3>E-mail</h3>
+                <p>spec@specelevadores.com.br</p>
+            </div>
+        </div>
     </footer>
 
     <script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
